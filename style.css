@@ -1,0 +1,424 @@
+body {
+    background-image: url(./desertimg.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 97.65vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main {
+    position: relative;
+}
+
+.camellogo {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 6%;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 1%;
+    font-size: small;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+}
+
+#navbarlogo {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: -30%;
+}
+
+.content {
+    color: white;
+    position: absolute;
+    /* height: 400px;
+    width: 600px; */
+    width: 45%;
+    line-height: 30px;
+    top: 245px;
+    left: 6%;
+}
+
+.heading {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.expbutton {
+    height: 40px;
+    width: 190px;
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-radius: 20px;
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+}
+
+.images {
+    color: white;
+    display: grid;
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 230px 230px;
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+    position: absolute;
+    top: 80px;
+    left: 56%;
+    /* outline: 1px solid gray; */
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.i1 {
+    background-image: url(./desertimg1.png);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+}
+
+.i1:hover {
+    transform: translateY(-10px);
+}
+
+.i2 {
+    background-image: url(./desertimg2.png);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+}
+
+.i2:hover {
+    transform: translateY(-10px);
+}
+
+.i3 {
+    background-image: url(./desertimg3.JPG);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+}
+
+.i3:hover {
+    transform: translateY(-10px);
+}
+
+.i4 {
+    background-image: url(./desertimg4.JPG);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+}
+
+.i4:hover {
+    transform: translateY(-10px);
+}
+
+.p1 {
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.p2 {
+    font-size: x-small;
+    line-height: 25px;
+    font-weight: 100;
+}
+
+@media all and (min-width: 660px) and (max-width: 1000px) {
+    body{
+        background-image: url(./desertimg.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .content {
+        color: white;
+        height: 400px;
+        width: 600px;
+        line-height: 20px;
+        position: absolute;
+        top: 90px;
+    }
+    
+    .heading {
+        font-size: 2.2rem;
+        font-weight: 900;
+    }
+
+    .expbutton {
+        height: 40px;
+        width: 190px;
+        background-color: white;
+        color: black;
+        border-color: white;
+        border-radius: 20px;
+        position: absolute;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    #main{
+        position: relative;
+        width: 100%;
+    }
+
+    .images {
+        color: white;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+        top: 750px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        width: 85%;
+        height: 1000px;
+    }
+
+    .i1 {
+        height: 200px;
+        width: 58%;
+        border-radius: 12px;
+        background-image: url(./desertimg1.png);
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s;
+    }
+    
+    .i1:hover {
+        transform: translateY(-10px);
+    }
+    
+    .i2 {
+        height: 200px;
+        width: 58%;
+        border-radius: 12px;
+        background-image: url(./desertimg2.png);
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s;
+    }
+
+    .i2:hover {
+        transform: translateY(-10px);
+    }
+
+    .i3 {
+        height: 200px;
+        width: 58%;
+        border-radius: 12px;
+        background-image: url(./desertimg3.JPG);
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s;
+    }
+    
+    .i3:hover {
+        transform: translateY(-10px);
+    }
+
+    .i4 {
+        height: 200px;
+        width: 58%;
+        border-radius: 12px;
+        background-image: url(./desertimg4.JPG);
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s;
+    }
+    
+    .i4:hover {
+        transform: translateY(-10px);
+    }
+
+    .p1 {
+        font-weight: 700;
+        padding-left: 25px;
+    }
+    
+    .p2 {
+        font-size: x-small;
+        line-height: 25px;
+        font-weight: 100;
+    }
+}
+
+@media all and (min-width: 340px) and (max-width: 659px){ 
+    body {
+        background-image: url(./desertimg.JPG);
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    #main {
+        position: relative;
+    } 
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        color: white;
+        position: absolute;
+        top: 5px;
+        right: 20%;
+        font-size: small;
+    }
+
+    .navlink {
+        text-decoration: none;
+        color: white;
+        line-height: 19px;
+    }
+    
+    #navbarlogo {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        top: 12px;
+        left: 120%;
+    }
+    
+    .content {
+        color: white;
+        position: absolute;
+        width: 85%;
+        top: 100px;
+        line-height: 9px;
+    }
+
+    .loremtext {
+        line-height: 25px;
+        font-size: small;
+    }
+    
+    .heading {
+        font-size: 2.2rem;
+        font-weight: 900;
+    }
+    
+    .expbutton {
+        height: 40px;
+        width: 190px;
+        background-color: white;
+        color: black;
+        border-color: white;
+        border-radius: 20px;
+        position: absolute;
+        text-align: center;
+        font-size: small;
+        font-weight: 400;
+    }
+    
+    #main{
+        position: relative;
+    }
+
+    .images {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 800px;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        width: 85%;
+    }
+
+    .img {
+        height: 220px;
+        width: 220px;
+        border-radius: 12px;
+    }
+    
+    .i1 {
+        background-image: url(./desertimg1.png);
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s;
+    }
+    
+    .i1:hover {
+        transform: translateY(-10px);
+    }
+    
+    .i2 {
+        background-image: url(./desertimg2.png);
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s;
+    }
+
+    .i2:hover {
+        transform: translateY(-10px);
+    }
+    
+    .i3 {
+        background-image: url(./desertimg3.JPG);
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s;
+    }
+    
+    .i3:hover {
+        transform: translateY(-10px);
+    }
+
+    .i4 {
+        background-image: url(./desertimg4.JPG);
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s;
+    }
+    
+    .i4:hover {
+        transform: translateY(-10px);
+    }
+    
+    .p1 {
+        font-weight: 700;
+        padding-left: 25px;
+    }
+    
+    .p2 {
+        font-size: x-small;
+        line-height: 25px;
+        font-weight: 100;
+    }
+}
